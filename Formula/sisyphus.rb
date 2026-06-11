@@ -1,18 +1,18 @@
 class Sisyphus < Formula
   desc "Local issue-to-agent broker and lifecycle controller"
   homepage "https://github.com/the-agentic-world/sisyphus"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/the-agentic-world/sisyphus/releases/download/v0.0.5/sisyphus-v0.0.5-aarch64-apple-darwin.tar.gz"
-    sha256 "f0b8119a6bd9a0207c89bd2c2716e693c8ae5eb02853b24ddbd76a21241abd60"
+    url "https://github.com/the-agentic-world/sisyphus/releases/download/v0.0.6/sisyphus-v0.0.6-aarch64-apple-darwin.tar.gz"
+    sha256 "f9540e19c2180cef7d5bdfbe3b339c446bc9edef131e203c5c6d82db447ab35d"
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/the-agentic-world/sisyphus/releases/download/v0.0.5/sisyphus-v0.0.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7128e9e2ad1336da0d0a130c4681b3bc9cd988820985ed0217cafb1b0eabf370"
+      url "https://github.com/the-agentic-world/sisyphus/releases/download/v0.0.6/sisyphus-v0.0.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "88e1d2bc672fbdf1cee16720b1fa3ced62a6a4e5edb369c3322b57810eb892d2"
     end
   end
 
