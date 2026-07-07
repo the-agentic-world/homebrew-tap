@@ -1,12 +1,12 @@
 class Megara < Formula
   desc "Project and global agent harness installer"
   homepage "https://github.com/the-agentic-world/megara"
-  version "1.1.9"
+  version "1.1.10"
   license "MIT"
 
   on_macos do
-    url "https://github.com/the-agentic-world/megara/releases/download/v1.1.9/megara-v1.1.9-aarch64-apple-darwin.tar.gz"
-    sha256 "2327b00fd7123d1717f4170ae8e7458b9c4ffd469c175a0bbba80f05f1d27e64"
+    url "https://github.com/the-agentic-world/megara/releases/download/v1.1.10/megara-v1.1.10-aarch64-apple-darwin.tar.gz"
+    sha256 "ee8734f453bfefec960c3f0ab1f07c3e26c55568643b8392c767d9f543610713"
   end
 
   def install
